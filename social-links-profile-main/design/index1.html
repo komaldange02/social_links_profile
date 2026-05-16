@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>social links profile</title>
+    
+<style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Arial, Helvetica, sans-serif;
+
+        }
+        html,
+        body{
+            width: 100%;
+            height: 100%;
+        }
+        body{
+            background-color: hsl(0, 0%, 8%);
+            min-height: 300vh;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            padding: 20px;
+            overflow: auto;
+        }
+        .card{
+            background: #1f1f1f;
+            width: 350px;
+            height: 550px;
+            padding: 35px;
+            border-radius: 20px;
+            text-align: center;
+            
+        }
+        .profile-img{
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+        h2{
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .location{
+            color: #c4f82a;
+            font-size: 14px;
+            margin-bottom: 30px;
+
+        }
+        .bio{
+            color: #d3d3d3;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        .links{
+            
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-bottom: 50px;
+        }
+        .links a{
+             text-decoration:none; 
+             background:#333333; 
+            color:white;
+            padding:10px;
+             border-radius:10px; 
+            font-weight:bold;
+            transition:0.3s;  
+        }
+        .links a:hover{
+            background-color: #c4f82a;
+            color: black;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="card">
+       <img src="design/Profile_image.jpg" alt="profile-img" class="profile-img">
+        <h2>Komal Dange</h2>
+
+        <p class="location">Chatrapti sambhaji nagar , maharastra</p>
+
+        <p class="bio">"Front-end developer and explorer."</p>
+
+        <div class="links">
+            <a href="#">GitHub</a>
+            <a href="#">Leet Code</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+    </div>
+    
+</body>
+</html>
