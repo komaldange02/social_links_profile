@@ -59,25 +59,15 @@ social-links-profile-main/images/mobile-design.jpg
 
 ## Live Demo
 
-Add your deployed website link here.
 
-Example:
+https://komaldangeprofile.netlify.app
 
-```text
-https://your-project.netlify.app
-```
-
----
 
 ## GitHub Repository
 
-Add your GitHub repository link here.
+GitHub repository link here.
 
-Example:
-
-```text
-https://github.com/yourusername/social-links-profile
-```
+https://github.com/komaldange02/social_links_profile.git
 
 ---
 
